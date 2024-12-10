@@ -1,0 +1,22 @@
+.header-main-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(90, 25, 25);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  @media screen and (max-width: 768px) {
+    position: relative;
+    height: 80px;
+
+    button {
+      width: fit-content !important;
+      align-items: center;
+    }
+
+    font-size: small;
+  }
+}

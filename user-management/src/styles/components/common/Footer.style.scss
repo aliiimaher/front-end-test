@@ -1,0 +1,14 @@
+.footer-main-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(90, 25, 25);
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+}
